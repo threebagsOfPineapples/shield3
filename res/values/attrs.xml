@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RippleLayout">
+        <attr name="Ripp_color" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="duration" format="integer" />
+        <attr name="rippleNums" format="integer" />
+        <attr name="scale" format="float" />
+    </declare-styleable>
+    
+    <declare-styleable name="myTestView">
+        <!-- view的颜色 -->
+        <attr name="viewClolor" format="color"></attr>
+        <!-- 竖线的颜色 -->
+        <attr name="lineClolor" format="color"></attr>
+        <!-- 外圆的宽度 -->
+        <attr name="circularWide" format="dimension"></attr>
+        <!-- 竖线的宽度 -->
+        <attr name="lineWide" format="dimension"></attr>
+    </declare-styleable>
+
+</resources>
